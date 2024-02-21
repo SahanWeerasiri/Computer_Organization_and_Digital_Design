@@ -13,9 +13,11 @@
   - Schematics
   - Time Graphs
   - Implemented Schematic
+  - Vivado files
 - Lab4 (Decoder and Multiplexer)
   - Lab manual
   - Report
   - Schematics
   - Time Graphs
   - Implemented Schematic
+  - Vivado files
