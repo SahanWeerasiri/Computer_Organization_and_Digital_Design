@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/SAHAN/Lab5/Lab5.srcs/sources_1/new/Multiplier_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplier_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/SAHAN/Lab5/Lab5.srcs/sim_1/new/TB_Multiplier_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Multiplier_4
