@@ -1,0 +1,324 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Mar 21 00:34:02 2024
+# Process ID: 260
+# Current directory: C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.runs/synth_1
+# Command line: vivado.exe -log AU_7_Seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source AU_7_Seg.tcl
+# Log file: C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.runs/synth_1/AU_7_Seg.vds
+# Journal file: C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source AU_7_Seg.tcl -notrace
+Command: synth_design -top AU_7_Seg -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18964 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 409.328 ; gain = 95.773
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'AU_7_Seg' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/AU_7_Seg.vhd:44]
+INFO: [Synth 8-3491] module 'AU' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/AU.vhd:34' bound to instance 'AU_0' of component 'AU' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/AU_7_Seg.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'AU' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/AU.vhd:43]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/Slow_Clk.vhd:34' bound to instance 'Slow_CLk0' of component 'Slow_Clk' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/AU.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/Slow_Clk.vhd:39]
+WARNING: [Synth 8-614] signal 'clk_state' is read in the process but is not in the sensitivity list [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/Slow_Clk.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (1#1) [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-3491] module 'Decorder_1_to_2' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/Decorder_1_to_2.vhd:34' bound to instance 'Decorder_1_to_2_0' of component 'Decorder_1_to_2' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/AU.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'Decorder_1_to_2' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/Decorder_1_to_2.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Decorder_1_to_2' (2#1) [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/Decorder_1_to_2.vhd:40]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/Reg.vhd:34' bound to instance 'Reg_A' of component 'Reg' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/AU.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/Reg.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (3#1) [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/Reg.vhd:41]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/Reg.vhd:34' bound to instance 'Reg1_B' of component 'Reg' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/AU.vhd:101]
+INFO: [Synth 8-3491] module 'RCA_4' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/RCA_4.vhd:34' bound to instance 'RCA_4_0' of component 'RCA_4' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/AU.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'RCA_4' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/RCA_4.vhd:51]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA0' of component 'FA' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/RCA_4.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/FA.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (4#1) [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/HA.vhd:41]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/FA.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'FA' (5#1) [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA1' of component 'FA' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/RCA_4.vhd:71]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA2' of component 'FA' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/RCA_4.vhd:79]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA3' of component 'FA' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/RCA_4.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'RCA_4' (6#1) [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/RCA_4.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'AU' (7#1) [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/AU.vhd:43]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/LUT_16_7.vhd:35' bound to instance 'LUT_16_7_0' of component 'LUT_16_7' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/AU_7_Seg.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/LUT_16_7.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (8#1) [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/LUT_16_7.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'AU_7_Seg' (9#1) [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.srcs/sources_1/new/AU_7_Seg.vhd:44]
+WARNING: [Synth 8-3331] design RCA_4 has unconnected port C_in
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 464.609 ; gain = 151.055
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 464.609 ; gain = 151.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 464.609 ; gain = 151.055
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Basys3Lab.xdc]
+Finished Parsing XDC File [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Basys3Lab.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Basys3Lab.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/AU_7_Seg_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/AU_7_Seg_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 772.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:33 . Memory (MB): peak = 772.172 ; gain = 458.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:33 . Memory (MB): peak = 772.172 ; gain = 458.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:33 . Memory (MB): peak = 772.172 ; gain = 458.617
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "sevenSegment_ROM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:33 . Memory (MB): peak = 772.172 ; gain = 458.617
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
++---Registers : 
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  17 Input      7 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Slow_Clk 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module LUT_16_7 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input      7 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:35 . Memory (MB): peak = 772.172 ; gain = 458.617
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:59 . Memory (MB): peak = 788.945 ; gain = 475.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:59 . Memory (MB): peak = 798.566 ; gain = 485.012
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:59 . Memory (MB): peak = 799.543 ; gain = 485.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:01:01 . Memory (MB): peak = 799.543 ; gain = 485.988
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:01:01 . Memory (MB): peak = 799.543 ; gain = 485.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:01:01 . Memory (MB): peak = 799.543 ; gain = 485.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:01:01 . Memory (MB): peak = 799.543 ; gain = 485.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:01:01 . Memory (MB): peak = 799.543 ; gain = 485.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:01:01 . Memory (MB): peak = 799.543 ; gain = 485.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    12|
+|3     |LUT1   |     3|
+|4     |LUT2   |    26|
+|5     |LUT3   |     2|
+|6     |LUT4   |     1|
+|7     |LUT6   |    10|
+|8     |FDRE   |    40|
+|9     |FDSE   |     1|
+|10    |IBUF   |     6|
+|11    |OBUF   |    13|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+---------+------+
+|      |Instance      |Module   |Cells |
++------+--------------+---------+------+
+|1     |top           |         |   115|
+|2     |  AU_0        |AU       |    95|
+|3     |    Reg1_B    |Reg      |     7|
+|4     |    Reg_A     |Reg_0    |    16|
+|5     |    Slow_CLk0 |Slow_Clk |    72|
++------+--------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:01:01 . Memory (MB): peak = 799.543 ; gain = 485.988
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:42 . Memory (MB): peak = 799.543 ; gain = 178.426
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:01:01 . Memory (MB): peak = 799.543 ; gain = 485.988
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+44 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:01:05 . Memory (MB): peak = 810.699 ; gain = 510.027
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/SAHAN/DarkShadow/campus/Sem2/Computer archi/Labs/Lab7 7 Segment Display/Lab7/Lab7.runs/synth_1/AU_7_Seg.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file AU_7_Seg_utilization_synth.rpt -pb AU_7_Seg_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 810.699 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 21 00:35:17 2024...

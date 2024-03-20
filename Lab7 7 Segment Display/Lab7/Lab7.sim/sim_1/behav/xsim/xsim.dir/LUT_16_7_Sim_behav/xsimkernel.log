@@ -1,0 +1,4 @@
+Running: xsim.dir/LUT_16_7_Sim_behav/xsimk.exe -simmode gui -wdb LUT_16_7_Sim_behav.wdb -simrunnum 0 -socket 1670
+Design successfully loaded
+Design Loading Memory Usage: 6648 KB (Peak: 6648 KB)
+Design Loading CPU Usage: 31 ms
