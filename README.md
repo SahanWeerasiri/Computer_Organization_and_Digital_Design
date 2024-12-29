@@ -21,3 +21,6 @@
   - Time Graphs
   - Implemented Schematic
   - Vivado files
+- Lab5 (Clock, D Flipflop)
+- Lab6 (AU)
+- Lab7 (7 Segment Display)
